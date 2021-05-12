@@ -71,7 +71,7 @@ fn new_blinding(mut cx: FunctionContext) -> JsResult<JsObject> {
 }
 
 /// @param ArrayBuffer `id` - The identifier to use for this token
-/// @param ArrayBugger `secretKey` - The secret key used for signing this token
+/// @param ArrayBuffer `secretKey` - The secret key used for signing this token
 /// @returns {
 ///     "token": ArrayBuffer
 /// }
